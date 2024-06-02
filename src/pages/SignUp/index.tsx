@@ -21,7 +21,6 @@ export const SignUp = () => {
   const navigate = useNavigate()
 
   const onSubmit: SubmitHandler<SignUpSchemaType> = (data) => {
-    console.log(data)
     navigate('/home')
   }
 
